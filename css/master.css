@@ -1,0 +1,103 @@
+@font-face{
+	font-family:"Pacifico";
+	src: url(../fonts/Pacifico-Regular.ttf);
+	
+}
+h1.fallo{
+	color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/fondo.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login {
+border: 3px solid red;
+width: 320px;
+height: 430px;
+background: black;
+color: #fff;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing:border-box;
+padding: 70px 30px;
+box-shadow: 9px 18px 40px red;
+border-radius: 20px;
+background: rgba(0,0,0,0.7);
+}
+.login p{
+	color: white;
+	font-size: 12px;
+	height: 20px;
+}
+.login .avatar{
+  border: 3px solid red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  box-shadow: 2px 1px 30px red;
+}
+
+.login h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Pacifico';
+  font-weight: 100;
+}
+
+.login label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+}
+
+.login input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: red;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login a:hover {
+  color: white;
+}

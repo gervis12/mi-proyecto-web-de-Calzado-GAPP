@@ -1,0 +1,18 @@
+.gallery__img {
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border: 3px solid red;
+  height: 240px;
+  width: 270px;
+  align-items: flex-start;
+  max-width: 95%;
+  margin: 10px auto;
+  box-shadow: 6px 14px 36px white;
+}
+
+.gallery__img:hover{
+  transform: scale(1.02);
+}
+
+
